@@ -1,5 +1,4 @@
-
-'use strict';
+"use strict";
 
 // console.log(`hello`)
 
@@ -24,14 +23,14 @@
 
 // winnerCheck(DolphisAverageScore,kolasaverageScare);
 
-// //test 2 
+// //test 2
 
 // DolphisAverageScore = calc(85,54,41);
 // kolasaverageScare = calc(23,27,34);
 // console.log(`Average Score : ${DolphisAverageScore}, ${kolasaverageScare}`);
 // winnerCheck(DolphisAverageScore,kolasaverageScare);
 
-// coding challeng 2 in arrays 
+// coding challeng 2 in arrays
 
 // const tipcalculator =  function(bill){
 //     if(bill>50 && bill<300){
@@ -44,7 +43,7 @@
 // const bill = [125 , 555 , 44];
 // console.log(`Bill Array : ${bill}`);
 // const tips = [tipcalculator(bill[0]) , tipcalculator(bill[1]) , tipcalculator(bill[2])];
-//  console.log(`Tips Array : ${tips}`); 
+//  console.log(`Tips Array : ${tips}`);
 
 // const total  = [bill[0]+tips[0] + bill[1]+tips[1] + bill[2]+tips[2]];
 // console.log(`Total : ${total}`);
@@ -61,7 +60,7 @@
 //         return this.bmi;
 //     }
 // }
- 
+
 // const Jhon = {
 //     fullname:'Jhon Smith',
 //     mass:92,
@@ -72,7 +71,6 @@
 //         return this.bmi;
 //     }
 // }
-  
 
 // const summary=function(){
 //     if(Mark.calcBMI() > Jhon.calcBMI()){
@@ -85,3 +83,28 @@
 
 // console.log(summary());
 // console.log(Mark.bmi , Jhon.bmi);
+
+//Challenge 4
+
+// const bills = [ 22 , 295 , 176 , 440 , 37 , 105 , 10 , 1100 , 86 , 52];
+// const tips = [];
+// const total =[];
+
+// const tipcalculator =  function(bill){
+//     if(bill>50 && bill<300){
+//         return 0.15*bill;
+//     }else{
+//         return 0.20*bill;
+//     }
+// }
+
+// for(let i  =0 ; i<bills.length; i++){
+
+//      tips.push(tipcalculator(bills[i]));
+//      total.push(bills[i]+tips[i]);
+// }
+
+// console.log(tips);
+// console.log(total);
+
+//challenge
